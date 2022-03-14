@@ -4,7 +4,6 @@ preRun:
      command:
         - yarn install
         - yarn run build:lib
-
 preMerge:
   pattern:
     - "./src/__tests__/*.spec.ts"
@@ -15,3 +14,10 @@ postRun:
      command:
         - yarn --version
 version: 1.0
+
+
+
+
+
+
+
